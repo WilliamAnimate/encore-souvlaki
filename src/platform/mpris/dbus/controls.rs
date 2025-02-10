@@ -272,7 +272,7 @@ where
             )
             .ok();
         }
-        conn.process(Duration::from_millis(1000))?;
+        conn.process(Duration::from_millis(10))?;
     }
 
     Ok(())
